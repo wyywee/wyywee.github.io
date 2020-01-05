@@ -1,10 +1,4 @@
----
-layout: default
----
-
-
-
-#### [日记](./log) [网址](./web)  [github](https://github.com/wyywee/wyywee.github.io?files=1) 
+日记](./log) [网址](./web)  [github](https://github.com/wyywee/wyywee.github.io?files=1) 
 
 
 

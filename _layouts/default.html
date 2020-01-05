@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+<meta charset="utf-8">
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+<h4 id="日记---网址---书签---github---博客">
+<a href="./log">日记</a>   
+<a href="./web">网址</a>   
+<a href="/bookmarks_2019_11_18.html">书签</a>   
+<a href="https://github.com/">github</a>
+<a href="./blog">博客</a> 
+</h4>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+   
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+   
+        <span class="site-footer-credits">网址<a href="https://https://www.bilibili.com/">bilibili</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
