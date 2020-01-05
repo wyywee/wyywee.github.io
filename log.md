@@ -1,5 +1,3 @@
-#### [日记](./log)   [网址](./web)   [书签](./bookmarks_2019_11_18.html)   [github](https://github.com/)
-
 ## [<](./)
 
 
