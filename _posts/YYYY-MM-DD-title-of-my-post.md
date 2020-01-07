@@ -4,4 +4,32 @@ title: "Hank Quinlan, Horrible Cop, Launches Site"
 date: 2014-04-30
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+## [<](./)
+
+
+### 跑鞋发货(2019.11.17)
+
+```
+双十一买的跑鞋今天才发货。跑步袜子我也买了。
+```
+![](https://www.vogue.co.th/uploads/za-entertainment-6-30-2017-14.jpg)
+
+### 晚上喝茶
+
+```
+360N4感觉不好玩被我锁进了抽屉。屏幕太宽，
+拿着咯手。而且感觉我两个玩不过来。
+```
+
+### 中午到的快递
+
+```markdown
+看到两个同学平常玩两个手机，没想到我又买
+了一个360 N4
+```
+
+### 2019.11.15
+
+```markdown
+今天星期五，无土栽培不上，只有组培，蔬菜
+```
