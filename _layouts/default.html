@@ -21,23 +21,27 @@
  <!--内部样式表-->
    <style>
     
-    body{background:#f6f6f6;}
-    h4{color:#ffffff;}
-    
-    .main-content {background: #ffffff;}
-    .site-footer {background-color:#2F2F2F;}
-    #menu {padding-top:16px;padding-bottom:16px;margin-top:0;margin-bottom:0;background: #FD6440;}
-    #footer{padding-top:16px;padding-bottom:16px;margin-top:0;margin-bottom:0;
-            background-color: #2F2F2F;"}
-    
-    footer span {background: #FD6440}
-    a{color:#ffffff;}
+    body{
+          background:#f6f6f6;
+}
+    h4{
+          color:#ffffff;background:#FD6440
+}
+    .main-content {
+          background: #ffffff;padding-top:16px;padding-bottom:16px;margin-top:0;margin-bottom:0;background: #FD6440;
+}
+    footer{
+          background:black;
+}
+    a{
+          color:#ffffff;
+}
    </style>
   <title>ww博客</title>
   </head>
   <body>
   
-   <h4 id="menu" class="main-content" >
+   <h4 class="main-content" >
    <a href="/"     >首页</a> 
    <a href="./log" >日记</a>   
    <a href="./web" >网址</a>   
@@ -51,7 +55,7 @@
    <main id="content" class="main-content" role="main" >
      {{ content }}
    </main>
-   <footer id="footer" class="main-content"  >
+   <footer class="main-content"  >
     
      <span id="span" >
        网址： <a href="https://www.bilibili.com">bilibili</a>.
